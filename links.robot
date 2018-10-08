@@ -6,44 +6,23 @@ Test Teardown     Close All Browsers
 *** Test Cases ***
 Checking logo link
     [Tags]  LINKS_1
-    Click Element  css=li:nth-child(1) > a > span
-	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
-	Mouse Over  css=li:nth-child(1) > a:nth-child(1)
-	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
-	Page Should Contain Element
+    Click Element  css=header > nav > a
+	Page Should Contain Element  css=div.search-bar > img
 
 Checking second navigating button
     [Tags]  LINKS_2
-    Click Element  css=li:nth-child(1) > a > span
-	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
-	Mouse Over  css=li:nth-child(1) > a:nth-child(1)
-	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
-	Page Should Contain Element
+    Click Element  css=li:nth-child(2) > a
+	Page Should Contain Element  css=body > main > div > a
 
 Checking third navigating button
     [Tags]  LINKS_3
-    Click Element  css=li:nth-child(1) > a > span
-	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
-	Mouse Over  css=li:nth-child(1) > a:nth-child(1)
-	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
-	Page Should Contain Element
+    Click Element  css=li:nth-child(3) > a
+	Page Should Contain Element  css=body > main > div > h1
 
 Checking first navigating button
     [Tags]  LINKS_4
-    Click Element  css=li:nth-child(1) > a > span
-	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
-	Mouse Over  css=li:nth-child(1) > a:nth-child(1)
-	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
-	Page Should Contain Element
-
-Checking "Proceed" button
-    [Tags]  LINKS_5
-    Click Element  css=li:nth-child(1) > a > span
-	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
-	Mouse Over  css=li:nth-child(1) > a:nth-child(1)
-	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
-	Page Should Contain Element
-
+    Click Element  css=li:nth-child(1) > a
+    Page Should Contain Element  css=div.search-bar > img
 
 
 

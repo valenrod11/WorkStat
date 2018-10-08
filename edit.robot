@@ -4,7 +4,7 @@
 Test Teardown     Close All Browsers
 
 *** Test Cases ***
-Checking logo link
+Checking status drop-list in edit popup
     [Tags]  EDIT_1
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
@@ -12,7 +12,7 @@ Checking logo link
 	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
 	Page Should Contain Element
 
-Checking second navigating button
+Checking first input with negative test in edit popup
     [Tags]  EDIT_2
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
@@ -20,7 +20,7 @@ Checking second navigating button
 	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
 	Page Should Contain Element
 
-Checking third navigating button
+Checking first input validation in edit popup
     [Tags]  EDIT_3
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
@@ -28,7 +28,7 @@ Checking third navigating button
 	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
 	Page Should Contain Element
 
-Checking first navigating button
+Checking secondinput with negative test in edit popup
     [Tags]  EDIT_4
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
@@ -36,7 +36,7 @@ Checking first navigating button
 	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
 	Page Should Contain Element
 
-Checking "Proceed" button
+Checking second input validation in edit popup
     [Tags]  EDIT_5
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
@@ -44,7 +44,7 @@ Checking "Proceed" button
 	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
 	Page Should Contain Element
 	
-Checking "Proceed" button
+Checking third input with negative test in edit popup
     [Tags]  EDIT_6
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
@@ -52,7 +52,7 @@ Checking "Proceed" button
 	Click Element  css=li:nth-child(1) > ul > li:nth-child(2)
 	Page Should Contain Element
 	
-Checking "Proceed" button
+Checking third input validation in edit popup
     [Tags]  EDIT_7
     Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
