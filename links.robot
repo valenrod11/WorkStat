@@ -1,6 +1,6 @@
 *** Settings ***
-#Resource          _resource.robot
-#Test Setup        Prepare Test Environment
+Resource          _resources.robot
+Test Setup        Prepare Test Environment
 Test Teardown     Close All Browsers
 
 *** Test Cases ***
@@ -23,19 +23,3 @@ Checking first navigating button
     [Tags]  LINKS_4
     Click Element  css=li:nth-child(1) > a
     Page Should Contain Element  css=div.search-bar > img
-
-
-
-
-
-
-
-
-    [Tags]    DEBUG
-    Provided precondition
-    When action
-    Then check expectations
-
-*** Keywords ***
-Provided precondition
-    Setup system under test

@@ -1,6 +1,6 @@
 *** Settings ***
-#Resource          _resource.robot
-#Test Setup        Prepare Test Environment
+Resource          _resources.robot
+Test Setup        Prepare Test Environment
 Test Teardown     Close All Browsers
 
 *** Test Cases ***
