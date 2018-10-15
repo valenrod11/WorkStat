@@ -15,7 +15,8 @@ ${PROCEED_BTN}  css=body > main > div > a
 ${EDIT_BTN}  css=table > tbody > tr:nth-child(1) > td:nth-child(7) > a.btn.edit_btn
 ${DELETE_BTN}  css=table > tbody > tr:nth-child(1) > td:nth-child(7) > a.btn.delete_btn
 ${DESC_BTN}  css=table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(3)
-${TABLE}  css=body > main > div > table
+${TABLE}  css=body > main > div > table\
+${SAVE_BTN}  css=body > main > div > form > button
 
 *** Keywords ***
 Prepare Test Environment

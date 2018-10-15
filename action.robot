@@ -40,15 +40,15 @@ Checking proceed button
 	Click Link  ${PROCEED_BTN}
 	Wait Until Element Is Visible  ${TABLE}
     Click Link  ${PROCEED_BTN}
-	Page Should Contain  Choose skills!
+	Page Should Contain  skill
 
 Checking save button
     [Tags]  ACTION_5
     Search stub
     Enter search
 	Click Link  ${PROCEED_BTN}
-	Wait Until Element Is Visible  css=body > main > div > a
+	Wait Until Element Is Visible  ${TABLE}
     Click Link  ${PROCEED_BTN}
-    Click Element  css=td:nth-child(1) > input[type="checkbox"]
-    Click Link  css=form > button
-	Page Should Contain Element  css=body > main > div > h1
+    Select Checkbox  css=td:nth-child(1) > input[type="checkbox"]
+    Click Button  ${SAVE_BTN}
+	Page Should Contain  skill
