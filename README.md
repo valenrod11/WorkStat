@@ -8,11 +8,13 @@ https://docs.google.com/document/d/1h9DhKuRBdTK7k1ugZU8XeEXoc9mELVlEAc0PJqzghNg/
 https://docs.google.com/spreadsheets/d/11owfTB7jtKdCNxlGfDwh7q5VqFIW34U4h-4L1hfPrhQ/edit?usp=sharing
 
 #How to start test
-We use:
+
+#We use:
 - Chrome browser
 - ChromeDriver
 - Robot Framework
 
+#Steps:
 1. Download all files;
 2. Open terminal in project folder;
 3. Type "robot name.robot" (while "name" name of test suit) and wait for result
